@@ -1,0 +1,743 @@
+{
+  "videos": [
+    {
+      "id": "altura-epi",
+      "title": "⚠️ Sem EPI em altura",
+      "description": "Trabalhador em altura sem cinto de segurança. Brincadeira perigosa com a vida!",
+      "videoUrl": "https://videos.pexels.com/video-files/3571020/3571020-sd_640_360_24fps.mp4",
+      "thumbnail": "https://images.pexels.com/photos/3862369/pexels-photo-3862369.jpeg?w=300&h=200",
+      "duration": "00:15",
+      "category": "altura",
+      "tags": ["altura", "epi", "segurança", "queda"],
+      "tips": [
+        "Sempre use cinto de segurança em alturas superiores a 2 metros",
+        "Verifique o equipamento antes de usar",
+        "Mantenha três pontos de contato"
+      ]
+    },
+    {
+      "id": "escada-acrobata",
+      "title": "😵 Equilibrista da morte",
+      "description": "Usando escada como acrobata. Um passo em falso = tragédia!",
+      "videoUrl": "https://videos.pexels.com/video-files/2881780/2881780-sd_640_360_24fps.mp4",
+      "thumbnail": "https://images.pexels.com/photos/3862370/pexels-photo-3862370.jpeg?w=300&h=200",
+      "duration": "00:12",
+      "category": "escada",
+      "tags": ["escada", "equilíbrio", "queda", "improviso"],
+      "tips": [
+        "Use escadas apropriadas para a tarefa",
+        "Mantenha a escada estável",
+        "Não suba mais do que o último degrau seguro"
+      ]
+    },
+    {
+      "id": "eletricidade-desprotegida",
+      "title": "⚡ Fio na mão",
+      "description": "Manuseando fio elétrico desprotegido. Parece fácil até tomar choque!",
+      "videoUrl": "https://videos.pexels.com/video-files/3571019/3571019-sd_640_360_24fps.mp4",
+      "thumbnail": "https://images.pexels.com/photos/3862371/pexels-photo-3862371.jpeg?w=300&h=200",
+      "duration": "00:18",
+      "category": "eletricidade",
+      "tags": ["eletricidade", "choque", "isolamento", "segurança"],
+      "tips": [
+        "Desligue sempre a energia antes de trabalhar",
+        "Use ferramentas isoladas",
+        "Mantenha distância segura de linhas energizadas"
+      ]
+    },
+    {
+      "id": "sinalizacao-ausente",
+      "title": "🚧 Zona de risco ignorada",
+      "description": "Área de trabalho sem sinalização. Convite para o acidente!",
+      "videoUrl": "https://videos.pexels.com/video-files/3571021/3571021-sd_640_360_24fps.mp4",
+      "thumbnail": "https://images.pexels.com/photos/3862372/pexels-photo-3862372.jpeg?w=300&h=200",
+      "duration": "00:14",
+      "category": "sinalizacao",
+      "tags": ["sinalização", "risco", "segurança", "visibilidade"],
+      "tips": [
+        "Sempre sinalize áreas de risco",
+        "Use cones, fitas e placas adequadas",
+        "Mantenha sinalização visível e em bom estado"
+      ]
+    },
+    {
+      "id": "acrobacia-criativa",
+      "title": "😂 Acrobacia criativa",
+      "description": "Equilibrista de verdade... sem rede! Puro improviso brasileiro!",
+      "videoUrl": "https://videos.pexels.com/video-files/3571046/3571046-sd_640_360_24fps.mp4",
+      "thumbnail": "https://images.pexels.com/photos/3862374/pexels-photo-3862374.jpeg?w=300&h=200",
+      "duration": "00:16",
+      "category": "altura",
+      "tags": ["altura", "improviso", "criatividade", "risco"],
+      "tips": [
+        "Use equipamentos adequados para acesso em altura",
+        "Nunca improvise estruturas de acesso",
+        "Treine técnicas seguras de trabalho em altura"
+      ]
+    },
+    {
+      "id": "ferramenta-improvisada",
+      "title": "🔨 Criação própria",
+      "description": "Ferramenta 'personalizada' na marra. Quando quebra, quem paga?",
+      "videoUrl": "https://videos.pexels.com/video-files/3571047/3571047-sd_640_360_24fps.mp4",
+      "thumbnail": "https://images.pexels.com/photos/3862375/pexels-photo-3862375.jpeg?w=300&h=200",
+      "duration": "00:13",
+      "category": "ferramentas",
+      "tags": ["ferramentas", "improviso", "segurança", "qualidade"],
+      "tips": [
+        "Use sempre ferramentas adequadas e certificadas",
+        "Não improvise ferramentas ou acessórios",
+        "Realize manutenção regular das ferramentas"
+      ]
+    },
+    {
+      "id": "roupa-inadequada",
+      "title": "🔧 Moda da obra",
+      "description": "Roupa folgada + máquina em movimento = receita para desastre!",
+      "videoUrl": "https://videos.pexels.com/video-files/3571048/3571048-sd_640_360_24fps.mp4",
+      "thumbnail": "https://images.pexels.com/photos/3862376/pexels-photo-3862376.jpeg?w=300&h=200",
+      "duration": "00:17",
+      "category": "epi",
+      "tags": ["epi", "roupa", "máquinas", "segurança"],
+      "tips": [
+        "Use roupas adequadas ao trabalho",
+        "Evite roupas folgadas próximas a máquinas",
+        "Use EPIs específicos para cada atividade"
+      ]
+    },
+    {
+      "id": "maquina-desprotegida",
+      "title": "⚙️ Máquina liberada",
+      "description": "Sem proteção, sem travamento, sem senso. Pura adrenalina!",
+      "videoUrl": "https://videos.pexels.com/video-files/3571049/3571049-sd_640_360_24fps.mp4",
+      "thumbnail": "https://images.pexels.com/photos/3862377/pexels-photo-3862377.jpeg?w=300&h=200",
+      "duration": "00:19",
+      "category": "maquinas",
+      "tags": ["máquinas", "proteção", "segurança", "manutenção"],
+      "tips": [
+        "Nunca remova proteções de máquinas",
+        "Realize bloqueio/etiquetagem antes de manutenção",
+        "Mantenha todas as proteções em funcionamento"
+      ]
+    },
+    {
+      "id": "piso-molhado",
+      "title": "🏊 Escorreguete da obra",
+      "description": "Piso molhado, sem cone, sem aviso. Só falta a música de circo!",
+      "videoUrl": "https://videos.pexels.com/video-files/3571050/3571050-sd_640_360_24fps.mp4",
+      "thumbnail": "https://images.pexels.com/photos/3862378/pexels-photo-3862378.jpeg?w=300&h=200",
+      "duration": "00:11",
+      "category": "piso",
+      "tags": ["piso", "escorregamento", "sinalização", "limpeza"],
+      "tips": [
+        "Mantenha pisos secos e limpos",
+        "Sinalize áreas molhadas",
+        "Use calçados adequados com sola antiderrapante"
+      ]
+    },
+    {
+      "id": "empilhamento-excessivo",
+      "title": "🏔️ Montanha de carga",
+      "description": "Empilhar sem limite = brincadeira com Jenga gigante. Cuidado ao descer!",
+      "videoUrl": "https://videos.pexels.com/video-files/3571051/3571051-sd_640_360_24fps.mp4",
+      "thumbnail": "https://images.pexels.com/photos/3862379/pexels-photo-3862379.jpeg?w=300&h=200",
+      "duration": "00:15",
+      "category": "armazenagem",
+      "tags": ["armazenagem", "empilhamento", "estabilidade", "segurança"],
+      "tips": [
+        "Respeite limites de empilhamento",
+        "Verifique estabilidade das pilhas",
+        "Use equipamentos adequados para movimentação"
+      ]
+    },
+    {
+      "id": "nr35-altura",
+      "title": "🏗️ NR-35: Trabalho em Altura",
+      "description": "Norma Regulamentadora 35 - Segurança no trabalho em altura. Conheça os riscos e medidas preventivas.",
+      "videoUrl": "https://www.youtube.com/embed/jNQXAC9IVRw",
+      "thumbnail": "https://img.youtube.com/vi/jNQXAC9IVRw/0.jpg",
+      "duration": "05:30",
+      "category": "altura",
+      "tags": ["NR-35", "altura", "segurança", "normas"],
+      "tips": [
+        "Realizar análise de risco antes do trabalho",
+        "Usar equipamentos de proteção coletiva",
+        "Treinar trabalhadores em técnicas seguras"
+      ]
+    },
+    {
+      "id": "nr10-eletricidade",
+      "title": "⚡ NR-10: Segurança com Eletricidade",
+      "description": "Norma Regulamentadora 10 - Instalações e serviços em eletricidade. Prevenção de choques elétricos.",
+      "videoUrl": "https://www.youtube.com/embed/9bZkp7q19f0",
+      "thumbnail": "https://img.youtube.com/vi/9bZkp7q19f0/0.jpg",
+      "duration": "07:15",
+      "category": "eletricidade",
+      "tags": ["NR-10", "eletricidade", "choque", "segurança"],
+      "tips": [
+        "Desenergizar circuitos antes da manutenção",
+        "Usar ferramentas isoladas",
+        "Manter distância segura de linhas vivas"
+      ]
+    },
+    {
+      "id": "nr12-maquinas",
+      "title": "⚙️ NR-12: Segurança em Máquinas",
+      "description": "Norma Regulamentadora 12 - Segurança no trabalho em máquinas e equipamentos.",
+      "videoUrl": "https://www.youtube.com/embed/kJQP7kiw5Fk",
+      "thumbnail": "https://img.youtube.com/vi/kJQP7kiw5Fk/0.jpg",
+      "duration": "06:45",
+      "category": "maquinas",
+      "tags": ["NR-12", "máquinas", "equipamentos", "segurança"],
+      "tips": [
+        "Manter proteções de máquinas intactas",
+        "Realizar manutenções preventivas",
+        "Treinar operadores sobre riscos específicos"
+      ]
+    },
+    {
+      "id": "nr18-construcao",
+      "title": "🏗️ NR-18: Construção Civil",
+      "description": "Norma Regulamentadora 18 - Condições de trabalho na indústria da construção.",
+      "videoUrl": "https://www.youtube.com/embed/y6120QOlsfU",
+      "thumbnail": "https://img.youtube.com/vi/y6120QOlsfU/0.jpg",
+      "duration": "08:20",
+      "category": "altura",
+      "tags": ["NR-18", "construção", "civil", "segurança"],
+      "tips": [
+        "Implementar plano de segurança do canteiro",
+        "Fornecer EPIs adequados",
+        "Realizar inspeções diárias"
+      ]
+    },
+    {
+      "id": "nr33-confinados",
+      "title": "🔒 NR-33: Espaços Confinados",
+      "description": "Norma Regulamentadora 33 - Segurança e saúde em trabalhos em espaços confinados.",
+      "videoUrl": "https://www.youtube.com/embed/2xx_2XNxxfA",
+      "thumbnail": "https://img.youtube.com/vi/2xx_2XNxxfA/0.jpg",
+      "duration": "09:10",
+      "category": "altura",
+      "tags": ["NR-33", "espaços confinados", "atmosfera", "segurança"],
+      "tips": [
+        "Avaliar atmosfera antes da entrada",
+        "Usar equipamentos de respiração adequados",
+        "Ter equipe de resgate treinada"
+      ]
+    },
+    {
+      "id": "nr6-epi",
+      "title": "🛡️ NR-6: Equipamentos de Proteção",
+      "description": "Norma Regulamentadora 6 - Equipamento de Proteção Individual - EPI.",
+      "videoUrl": "https://www.youtube.com/embed/8SbUC-UaAxE",
+      "thumbnail": "https://img.youtube.com/vi/8SbUC-UaAxE/0.jpg",
+      "duration": "04:50",
+      "category": "epi",
+      "tags": ["NR-6", "EPI", "proteção", "individual"],
+      "tips": [
+        "Fornecer EPIs certificados",
+        "Treinar no uso correto",
+        "Realizar manutenção e substituição"
+      ]
+    },
+    {
+      "id": "nr23-incendio",
+      "title": "🔥 NR-23: Proteção Contra Incêndios",
+      "description": "Norma Regulamentadora 23 - Proteção contra incêndios.",
+      "videoUrl": "https://www.youtube.com/embed/0J2QdDbelmY",
+      "thumbnail": "https://img.youtube.com/vi/0J2QdDbelmY/0.jpg",
+      "duration": "06:30",
+      "category": "sinalizacao",
+      "tags": ["NR-23", "incêndio", "proteção", "emergência"],
+      "tips": [
+        "Instalar sistemas de combate a incêndio",
+        "Realizar treinamentos de evacuação",
+        "Manter extintores em locais acessíveis"
+      ]
+    },
+    {
+      "id": "nr17-ergonomia",
+      "title": "💼 NR-17: Ergonomia",
+      "description": "Norma Regulamentadora 17 - Ergonomia no trabalho.",
+      "videoUrl": "https://www.youtube.com/embed/1Bix44C1EzY",
+      "thumbnail": "https://img.youtube.com/vi/1Bix44C1EzY/0.jpg",
+      "duration": "07:00",
+      "category": "ferramentas",
+      "tags": ["NR-17", "ergonomia", "postura", "saúde"],
+      "tips": [
+        "Adequar mobiliário às necessidades",
+        "Promover pausas para descanso",
+        "Orientar sobre posturas corretas"
+      ]
+    },
+    {
+      "id": "nr15-insalubridade",
+      "title": "☣️ NR-15: Atividades Insalubres",
+      "description": "Norma Regulamentadora 15 - Atividades e operações insalubres.",
+      "videoUrl": "https://www.youtube.com/embed/3nQNiWdeH2Q",
+      "thumbnail": "https://img.youtube.com/vi/3nQNiWdeH2Q/0.jpg",
+      "duration": "05:40",
+      "category": "eletricidade",
+      "tags": ["NR-15", "insalubridade", "saúde", "exposição"],
+      "tips": [
+        "Avaliar agentes insalubres no ambiente",
+        "Fornecer proteção adequada",
+        "Realizar exames médicos periódicos"
+      ]
+    },
+    {
+      "id": "nr7-pcmso",
+      "title": "🏥 NR-7: PCMSO",
+      "description": "Norma Regulamentadora 7 - Programa de Controle Médico de Saúde Ocupacional.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "08:00",
+      "category": "epi",
+      "tags": ["NR-7", "PCMSO", "saúde", "ocupacional"],
+      "tips": [
+        "Elaborar programa médico personalizado",
+        "Realizar exames admissionais e periódicos",
+        "Manter registros médicos atualizados"
+      ]
+    },
+    {
+      "id": "nr1-disposicoes-gerais",
+      "title": "📋 NR-1: Disposições Gerais",
+      "description": "Norma Regulamentadora 1 - Disposições gerais sobre segurança e saúde do trabalho.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "04:30",
+      "category": "normas",
+      "tags": ["NR-1", "disposições gerais", "segurança", "saúde"],
+      "tips": [
+        "Conhecer os direitos e deveres dos trabalhadores",
+        "Entender as responsabilidades do empregador",
+        "Participar ativamente da segurança no trabalho"
+      ]
+    },
+    {
+      "id": "nr2-inspecao-previa",
+      "title": "👥 NR-2: Inspeção Prévia",
+      "description": "Norma Regulamentadora 2 - Inspeção prévia em segurança e saúde do trabalho.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "03:45",
+      "category": "normas",
+      "tags": ["NR-2", "inspeção prévia", "segurança", "fiscalização"],
+      "tips": [
+        "Realizar inspeções regulares nos locais de trabalho",
+        "Documentar todas as inspeções realizadas",
+        "Corrigir não conformidades identificadas"
+      ]
+    },
+    {
+      "id": "nr3-embargo-interdicao",
+      "title": "🏢 NR-3: Embargo ou Interdição",
+      "description": "Norma Regulamentadora 3 - Embargo ou interdição em segurança e saúde do trabalho.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "05:20",
+      "category": "normas",
+      "tags": ["NR-3", "embargo", "interdição", "segurança"],
+      "tips": [
+        "Respeitar determinações de embargo",
+        "Corrigir irregularidades antes da reabertura",
+        "Manter comunicação com órgãos fiscalizadores"
+      ]
+    },
+    {
+      "id": "nr4-servicos-especializados",
+      "title": "👷 NR-4: Serviços Especializados",
+      "description": "Norma Regulamentadora 4 - Serviços especializados em engenharia de segurança e medicina do trabalho.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "06:15",
+      "category": "normas",
+      "tags": ["NR-4", "serviços especializados", "engenheiro segurança", "médico trabalho"],
+      "tips": [
+        "Contratar profissionais qualificados",
+        "Manter registro profissional atualizado",
+        "Realizar treinamentos específicos"
+      ]
+    },
+    {
+      "id": "nr5-cipa",
+      "title": "📊 NR-5: Comissão Interna de Prevenção",
+      "description": "Norma Regulamentadora 5 - Comissão Interna de Prevenção de Acidentes - CIPA.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "07:30",
+      "category": "normas",
+      "tags": ["NR-5", "CIPA", "prevenção acidentes", "representação"],
+      "tips": [
+        "Eleger representantes da CIPA",
+        "Realizar reuniões mensais",
+        "Investigar acidentes de trabalho"
+      ]
+    },
+    {
+      "id": "nr8-edificacoes",
+      "title": "📚 NR-8: Edificações",
+      "description": "Norma Regulamentadora 8 - Edificações em segurança e saúde do trabalho.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "05:50",
+      "category": "normas",
+      "tags": ["NR-8", "edificações", "instalações", "segurança"],
+      "tips": [
+        "Manter edificações em bom estado",
+        "Realizar manutenções preventivas",
+        "Garantir acesso seguro às instalações"
+      ]
+    },
+    {
+      "id": "nr9-ppra",
+      "title": "🏭 NR-9: Programa de Prevenção de Riscos Ambientais",
+      "description": "Norma Regulamentadora 9 - Programa de Prevenção de Riscos Ambientais - PPRA.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "08:45",
+      "category": "normas",
+      "tags": ["NR-9", "PPRA", "riscos ambientais", "prevenção"],
+      "tips": [
+        "Identificar riscos ambientais no trabalho",
+        "Implementar medidas de controle",
+        "Realizar treinamentos sobre riscos"
+      ]
+    },
+    {
+      "id": "nr11-transporte",
+      "title": "🔌 NR-11: Transporte, Movimentação, Armazenagem e Manuseio de Materiais",
+      "description": "Norma Regulamentadora 11 - Transporte, movimentação, armazenagem e manuseio de materiais.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "06:40",
+      "category": "normas",
+      "tags": ["NR-11", "transporte", "armazenagem", "manuseio"],
+      "tips": [
+        "Usar equipamentos adequados para movimentação",
+        "Treinar operadores de equipamentos",
+        "Manter áreas de armazenagem organizadas"
+      ]
+    },
+    {
+      "id": "nr13-caldeiras",
+      "title": "📈 NR-13: Caldeiras, Vasos de Pressão e Tubulações",
+      "description": "Norma Regulamentadora 13 - Caldeiras, vasos de pressão e tubulações.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "07:20",
+      "category": "normas",
+      "tags": ["NR-13", "caldeiras", "vasos pressão", "tubulações"],
+      "tips": [
+        "Realizar inspeções regulares",
+        "Manter registros de manutenção",
+        "Operar apenas com pessoal qualificado"
+      ]
+    },
+    {
+      "id": "nr14-fornos",
+      "title": "🚪 NR-14: Fornos",
+      "description": "Norma Regulamentadora 14 - Fornos em segurança e saúde do trabalho.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "04:55",
+      "category": "normas",
+      "tags": ["NR-14", "fornos", "calor", "segurança"],
+      "tips": [
+        "Controlar exposição ao calor",
+        "Usar equipamentos de proteção adequados",
+        "Manter ventilação adequada"
+      ]
+    },
+    {
+      "id": "nr16-perigosas",
+      "title": "🌡️ NR-16: Atividades e Operações Perigosas",
+      "description": "Norma Regulamentadora 16 - Atividades e operações perigosas.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "06:10",
+      "category": "normas",
+      "tags": ["NR-16", "atividades perigosas", "operações", "segurança"],
+      "tips": [
+        "Identificar atividades de alto risco",
+        "Implementar medidas preventivas específicas",
+        "Realizar treinamentos especializados"
+      ]
+    },
+    {
+      "id": "nr19-explosivos",
+      "title": "🚀 NR-19: Explosivos",
+      "description": "Norma Regulamentadora 19 - Explosivos em segurança e saúde do trabalho.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "08:30",
+      "category": "normas",
+      "tags": ["NR-19", "explosivos", "perigos", "segurança"],
+      "tips": [
+        "Armazenar explosivos em locais adequados",
+        "Usar equipamentos de proteção específicos",
+        "Seguir procedimentos de manuseio seguro"
+      ]
+    },
+    {
+      "id": "nr20-inflamaveis",
+      "title": "⚗️ NR-20: Segurança com Inflamáveis e Combustíveis",
+      "description": "Norma Regulamentadora 20 - Segurança com inflamáveis e combustíveis.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "07:45",
+      "category": "normas",
+      "tags": ["NR-20", "inflamáveis", "combustíveis", "segurança"],
+      "tips": [
+        "Armazenar produtos inflamáveis adequadamente",
+        "Evitar fontes de ignição próximas",
+        "Usar equipamentos de combate a incêndio"
+      ]
+    },
+    {
+      "id": "nr21-ceu-aberto",
+      "title": "🚛 NR-21: Trabalhos a Céu Aberto",
+      "description": "Norma Regulamentadora 21 - Trabalhos a céu aberto.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "05:35",
+      "category": "normas",
+      "tags": ["NR-21", "céu aberto", "exposição", "proteção"],
+      "tips": [
+        "Proteger contra exposição solar",
+        "Fornecer equipamentos de proteção UV",
+        "Monitorar condições climáticas"
+      ]
+    },
+    {
+      "id": "nr22-mineracao",
+      "title": "🛢️ NR-22: Segurança e Saúde Ocupacional na Mineração",
+      "description": "Norma Regulamentadora 22 - Segurança e saúde ocupacional na mineração.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "09:15",
+      "category": "normas",
+      "tags": ["NR-22", "mineração", "segurança", "saúde"],
+      "tips": [
+        "Implementar plano de emergência",
+        "Usar equipamentos de proteção específicos",
+        "Realizar treinamentos de resgate"
+      ]
+    },
+    {
+      "id": "nr24-sanitarias",
+      "title": "🌿 NR-24: Condições Sanitárias e de Conforto nos Locais de Trabalho",
+      "description": "Norma Regulamentadora 24 - Condições sanitárias e de conforto nos locais de trabalho.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "06:25",
+      "category": "normas",
+      "tags": ["NR-24", "sanitárias", "conforto", "higiene"],
+      "tips": [
+        "Manter instalações sanitárias limpas",
+        "Fornecer água potável",
+        "Garantir ventilação adequada"
+      ]
+    },
+    {
+      "id": "nr25-residuos",
+      "title": "📞 NR-25: Resíduos Industriais",
+      "description": "Norma Regulamentadora 25 - Resíduos industriais.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "07:10",
+      "category": "normas",
+      "tags": ["NR-25", "resíduos industriais", "meio ambiente", "segurança"],
+      "tips": [
+        "Classificar resíduos adequadamente",
+        "Armazenar resíduos de forma segura",
+        "Destinar resíduos conforme legislação"
+      ]
+    },
+    {
+      "id": "nr26-sinalizacao",
+      "title": "🖥️ NR-26: Sinalização de Segurança",
+      "description": "Norma Regulamentadora 26 - Sinalização de segurança.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "05:15",
+      "category": "normas",
+      "tags": ["NR-26", "sinalização", "segurança", "comunicação"],
+      "tips": [
+        "Usar sinalização padronizada",
+        "Manter sinalização visível",
+        "Treinar sobre significado dos sinais"
+      ]
+    },
+    {
+      "id": "nr27-registro",
+      "title": "📝 NR-27: Registro Profissional do Técnico de Segurança do Trabalho",
+      "description": "Norma Regulamentadora 27 - Registro profissional do técnico de segurança do trabalho.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "04:40",
+      "category": "normas",
+      "tags": ["NR-27", "registro profissional", "técnico segurança", "qualificação"],
+      "tips": [
+        "Manter registro profissional atualizado",
+        "Cumprir requisitos de formação",
+        "Participar de cursos de atualização"
+      ]
+    },
+    {
+      "id": "nr28-fiscalizacao",
+      "title": "🔍 NR-28: Fiscalização e Penalidades",
+      "description": "Norma Regulamentadora 28 - Fiscalização e penalidades em segurança e saúde do trabalho.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "06:50",
+      "category": "normas",
+      "tags": ["NR-28", "fiscalização", "penalidades", "cumprimento"],
+      "tips": [
+        "Cumprir determinações dos fiscais",
+        "Manter documentação em dia",
+        "Corrigir irregularidades identificadas"
+      ]
+    },
+    {
+      "id": "nr29-portuario",
+      "title": "📋 NR-29: Norma Regulamentadora de Segurança e Saúde no Trabalho Portuário",
+      "description": "Norma Regulamentadora 29 - Segurança e saúde no trabalho portuário.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "08:20",
+      "category": "normas",
+      "tags": ["NR-29", "portuário", "segurança", "saúde"],
+      "tips": [
+        "Usar equipamentos de proteção específicos",
+        "Realizar treinamentos portuários",
+        "Implementar plano de emergência"
+      ]
+    },
+    {
+      "id": "nr30-aquaviario",
+      "title": "🏗️ NR-30: Segurança e Saúde no Trabalho Aquaviário",
+      "description": "Norma Regulamentadora 30 - Segurança e saúde no trabalho aquaviário.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "07:55",
+      "category": "normas",
+      "tags": ["NR-30", "aquaviário", "embarcações", "segurança"],
+      "tips": [
+        "Usar equipamentos de salvamento",
+        "Realizar treinamentos de emergência",
+        "Manter comunicação com terra"
+      ]
+    },
+    {
+      "id": "nr31-petroleo",
+      "title": "🚀 NR-31: Segurança e Saúde no Trabalho em Plataformas de Petróleo",
+      "description": "Norma Regulamentadora 31 - Segurança e saúde no trabalho em plataformas de petróleo.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "09:40",
+      "category": "normas",
+      "tags": ["NR-31", "petróleo", "plataformas", "segurança"],
+      "tips": [
+        "Implementar sistema de gestão de segurança",
+        "Usar equipamentos de proteção offshore",
+        "Realizar evacuações de emergência"
+      ]
+    },
+    {
+      "id": "nr32-saude",
+      "title": "🛩️ NR-32: Segurança e Saúde no Trabalho em Serviços de Saúde",
+      "description": "Norma Regulamentadora 32 - Segurança e saúde no trabalho em serviços de saúde.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "08:10",
+      "category": "normas",
+      "tags": ["NR-32", "saúde", "serviços", "segurança"],
+      "tips": [
+        "Usar EPIs contra agentes biológicos",
+        "Realizar treinamentos sobre riscos",
+        "Implementar protocolo de acidentes"
+      ]
+    },
+    {
+      "id": "nr34-naval",
+      "title": "🏔️ NR-34: Condições e Meio Ambiente de Trabalho na Indústria da Construção e Reparação Naval",
+      "description": "Norma Regulamentadora 34 - Condições e meio ambiente de trabalho na indústria da construção e reparação naval.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "07:25",
+      "category": "normas",
+      "tags": ["NR-34", "naval", "construção", "reparação"],
+      "tips": [
+        "Controlar exposição a ruídos",
+        "Usar equipamentos de proteção respiratória",
+        "Implementar medidas ergonômicas"
+      ]
+    },
+    {
+      "id": "nr36-carnes",
+      "title": "🌍 NR-36: Segurança e Saúde no Trabalho em Empresas de Abate e Processamento de Carnes",
+      "description": "Norma Regulamentadora 36 - Segurança e saúde no trabalho em empresas de abate e processamento de carnes.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "06:35",
+      "category": "normas",
+      "tags": ["NR-36", "carnes", "abate", "processamento"],
+      "tips": [
+        "Usar equipamentos de proteção contra cortes",
+        "Controlar temperatura ambiente",
+        "Realizar treinamentos sobre higiene"
+      ]
+    },
+    {
+      "id": "nr37-petroleo",
+      "title": "🔥 NR-37: Segurança e Saúde em Plataformas de Petróleo",
+      "description": "Norma Regulamentadora 37 - Segurança e saúde em plataformas de petróleo.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "07:45",
+      "category": "normas",
+      "tags": ["NR-37", "petróleo", "plataformas", "segurança"],
+      "tips": [
+        "Usar EPI para ambientes offshore",
+        "Inspecionar linhas e valvulados regularmente",
+        "Manter treinamentos de evacuação" 
+      ]
+    },
+    {
+      "id": "nr38-limpeza-urbana",
+      "title": "⚡ NR-38: Segurança e Saúde no Trabalho em Limpeza Urbana",
+      "description": "Norma Regulamentadora 38 - Segurança e saúde no trabalho em limpeza urbana.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg",
+      "duration": "08:20",
+      "category": "normas",
+      "tags": ["NR-38", "limpeza urbana", "trabalho", "segurança"],
+      "tips": [
+        "Usar EPIs adequados para trabalho com resíduos",
+        "Aplicar técnicas seguras para varrição e coleta",
+        "Manter equipamentos e veículos em boas condições"
+      ]
+    }
+  ],
+  "categories": {
+    "altura": { "name": "Trabalho em Altura", "color": "#ff6b6b", "icon": "⚠️" },
+    "escada": { "name": "Escadas e Plataformas", "color": "#4ecdc4", "icon": "🪜" },
+    "eletricidade": { "name": "Eletricidade", "color": "#ffd93d", "icon": "⚡" },
+    "sinalizacao": { "name": "Sinalização", "color": "#ff8a65", "icon": "🚧" },
+    "ferramentas": { "name": "Ferramentas", "color": "#9575cd", "icon": "🔨" },
+    "epi": { "name": "EPI e Vestuário", "color": "#81c784", "icon": "🛡️" },
+    "maquinas": { "name": "Máquinas e Equipamentos", "color": "#f06292", "icon": "⚙️" },
+    "piso": { "name": "Condições do Piso", "color": "#64b5f6", "icon": "🏊" },
+    "armazenagem": { "name": "Armazenagem", "color": "#ffb74d", "icon": "📦" }
+  },
+  "settings": {
+    "autoplay": false,
+    "preload": "metadata",
+    "volume": 0.7,
+    "showTips": true,
+    "showDuration": true,
+    "enableKeyboard": true
+  }
+}

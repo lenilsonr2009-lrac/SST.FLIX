@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Segurança e Saúde do Trabalho (SST)</title>
+  <!-- Metadados para o Mascote aparecer em Links de compartilhamento -->
+  <meta property="og:title" content="Segurança e Saúde do Trabalho (SST)" />
+  <meta property="og:description" content="Conhecimento sobre Normas Regulamentadoras (NR), regras e atualizações." />
+  <meta property="og:image" content="ing/mascote sst.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="ing/mascote sst.png" />
+
+  <link rel="icon" id="dynamic-favicon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path d='M15,95 Q50,65 85,95' fill='%231a9d3f' stroke='%23333' stroke-width='2'/><circle cx='50' cy='50' r='22' fill='%23ffdbac' stroke='%23333' stroke-width='2'/><path d='M28,50 Q28,25 50,25 Q72,25 72,50' fill='%23FFD700' stroke='%23333' stroke-width='2'/><rect x='25' y='46' width='50' height='6' rx='2' fill='%23FFD700' stroke='%23333' stroke-width='2'/></svg>" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-top">
+      <figure id="mascot-container" class="mascot-container" itemscope itemtype="http://schema.org/ImageObject">
+        <img id="mascot-img" itemprop="contentUrl" src="ing/mascote sst.png" alt="Mascote Oficial SST - Personagem instrutor de Segurança do Trabalho" class="mascot-img">
+        <meta itemprop="name" content="Mascote SST">
+        <meta itemprop="description" content="Personagem mascote oficial que auxilia na navegação e traz alertas de segurança.">
+        <figcaption id="mascot-tooltip" class="mascot-tooltip" itemprop="caption">Olá! Vamos trabalhar com segurança hoje?</figcaption>
+      </figure>
+      <div class="header-title-area">
+        <h1>Segurança e Saúde do Trabalho (SST)</h1>
+        <p>Conhecimento sobre Normas Regulamentadoras (NR), regras e atualizações.</p>
+      </div>
+      <div id="mini-calendar" class="mini-calendar">Carregando calendário...</div>
+    </div>
+    <nav aria-label="Navegação de seções de SST">
+      <a href="#introducao">Introdução</a>
+      <a href="#nrs">NRs</a>
+      <a href="#regras">Regras essenciais</a>
+      <a href="#siglas">Siglas</a>
+    </nav>
+    <button id="news-modal-btn" class="header-link" type="button" title="Ver lista de jornais">📰 <span>Jornais</span></button>
+    <a href="https://www.anvisa.gov.br/" target="_blank" rel="noopener noreferrer" class="header-link" title="Consulte Ficha de Dados de Segurança (FDS/FISPQ) na ANVISA">📋 <span>FDS/FISPQ</span></a>
+    <a href="https://www.fiesp.com.br/senai" target="_blank" rel="noopener noreferrer" class="header-link" title="Acesse cursos e recursos educacionais do SENAI">🏭 <span>FIESP/SENAI</span></a>
+    <a href="https://www.tst.jus.br/" target="_blank" rel="noopener noreferrer" class="header-link" title="Acesse o Tribunal Superior do Trabalho">⚖️ <span>TST</span></a>
+    <div class="header-buttons">
+      <a href="https://g1.globo.com/" target="_blank" rel="noopener noreferrer" class="g1-logo-link" title="Acesse o portal G1">g1</a>
+      <button id="theme-toggle" class="theme-toggle" type="button" title="Alternar entre modo claro e escuro (Direto ao Ponto)">👉 Direto ao Ponto</button>
+      <button id="avoid-btn" class="avoid-btn" type="button" title="Abrir galeria de erros de segurança">⚠️ O que temos que evitar?</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="introducao">
+      <h2>Introdução</h2>
+      <p>O tema Segurança e Saúde do Trabalho (SST) envolve políticas, processos e ações para proteger a vida, a saúde e o bem-estar dos trabalhadores. As Normas Regulamentadoras (NRs) do Ministério do Trabalho no Brasil estabelecem obrigações para empregadores e empregados, prevenindo acidentes e doenças ocupacionais.</p>
+    </section>
+
+
+
+    <section id="nrs">
+      <h2>Todas as NRs resumidas</h2>
+      <p>Abaixo estão as Normas Regulamentadoras com resumo curto e classificação em categorias:</p>
+
+      <!-- Barra de Busca e Filtro de NRs -->
+      <div class="nr-search-container">
+        <input 
+          type="text" 
+          id="nrSearch" 
+          class="nr-search-input" 
+          placeholder="🔍 Buscar por NR (ex: eletrici, cipa, risco)..." 
+          aria-label="Buscar Normas Regulamentadoras"
+        />
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all" title="Mostrar todas as NRs">Todas</button>
+          <button class="filter-btn" data-filter="gerais" title="Mostrar NRs Gerais">Gerais</button>
+          <button class="filter-btn" data-filter="especiais" title="Mostrar NRs Especiais">Especiais</button>
+          <button class="filter-btn" data-filter="setoriais" title="Mostrar NRs Setoriais">Setoriais</button>
+        </div>
+        <div id="nr-counter" class="nr-counter"></div>
+      </div>
+
+      <div class="nr-revogadas">
+        <div class="nrcategory-title">Revogadas</div>
+        <div class="nrcard"><strong>NR 2</strong> – Inspeção Prévia (revogada pela SEPRT nº 9.159/2019). <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 2 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 27</strong> – Registro Profissional do Técnico de Segurança do Trabalho (revogada pela MP nº 905/2019). <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 27 completa">📄</a></div>
+      </div>
+
+      <div class="nr-gerais">
+        <div class="nrcategory-title">Gerais</div>
+        <div class="nrcard"><strong>NR 1</strong> – Disposições gerais, aplicação da SST, sistemas de gestão, responsabilidades e penalidades. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 1 completa">📄</a></div>
+      </div>
+
+      <div class="nr-especiais">
+        <div class="nrcategory-title">Especiais</div>
+        <div class="nrcard"><strong>NR 3</strong> – Embargo ou interdição nas atividades. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 3 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 4</strong> – SESMT: equipe técnica de segurança e medicina do trabalho. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 4 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 5</strong> – CIPA: formação, eleição e atribuições. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 5 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 6</strong> – EPI: seleção, obrigatoriedade e uso. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 6 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 7</strong> – PCMSO: monitoramento médico e exames ocupacionais. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 7 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 8</strong> – Edificações: condições de higiene e conforto em dependências comerciais. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 8 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 9</strong> – Avaliação e Controle de Exposições Ocupacionais a Agentes Físicos, Químicos e Biológicos. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 9 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 10</strong> – Segurança em instalações elétricas e serviços com eletricidade. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 10 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 11</strong> – Transporte, movimentação, armazenagem e manuseio de materiais. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 11 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 12</strong> – Máquinas e equipamentos: proteções e controles. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 12 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 13</strong> – Caldeiras e vasos de pressão: inspeção e manutenção. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 13 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 14</strong> – Fornos: segurança em operação, controle de temperatura e medidas de proteção. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 14 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 15</strong> – Atividades insalubres e limites de tolerância. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 15 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 16</strong> – Atividades perigosas e adicional de periculosidade. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 16 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 17</strong> – Ergonomia: adaptações entre trabalho e trabalhador. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 17 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 18</strong> – Construção civil: condições e meio ambiente de trabalho. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 18 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 19</strong> – Explosivos: manipulação em mineração, agricultura e indústria. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 19 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 20</strong> – Inflamáveis e combustíveis: armazenagem e transporte. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 20 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 21</strong> – Trabalhos a Céu Aberto. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 21 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 22</strong> – Mineração: segurança e condições de trabalho em minas. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 22 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 23</strong> – Proteção contra incêndios. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 23 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 24</strong> – Condições sanitárias e de conforto nos locais de trabalho. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 24 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 25</strong> – Resíduos industriais: controle e manipulação. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 25 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 26</strong> – Sinalização de segurança. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 26 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 28</strong> – Fiscalização e penalidades. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 28 completa">📄</a></div>
+      </div>
+
+      <div class="nr-setoriais">
+        <div class="nrcategory-title">Setoriais</div>
+        <div class="nrcard"><strong>NR 29</strong> – Segurança e saúde no trabalho portuário. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 29 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 30</strong> – Segurança e saúde no trabalho aquaviário. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 30 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 31</strong> – Segurança e saúde no trabalho na agricultura, pecuária, silvicultura, exploração florestal e aquicultura. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 31 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 32</strong> – Segurança e saúde no trabalho em serviços de saúde. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 32 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 33</strong> – Espaços confinados. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 33 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 34</strong> – Condições e meio ambiente de trabalho na indústria da construção naval. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 34 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 35</strong> – Trabalho em alturas. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 35 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 36</strong> – Segurança e saúde no trabalho na indústria da carne. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 36 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 37</strong> – Segurança e Saúde em Plataformas de Petróleo. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 37 completa">📄</a></div>
+        <div class="nrcard"><strong>NR 38</strong> – Segurança e saúde no trabalho em limpeza urbana. <a href="https://www.in.gov.br" target="_blank" class="nr-link" title="Ler NR 38 completa">📄</a></div>
+      </div>
+    </section>
+
+    <section id="regras">
+      <h2>Regras Essenciais</h2>
+      <ul>
+        <li>Manter a documentação de SST atualizada e disponível (PPRA/PGR, PCMSO, mapas de risco, etc.).</li>
+        <li>Realizar treinamentos periódicos (admissional, reciclagem, específicos para função).</li>
+        <li>Fornecer e fiscalizar o uso de EPIs conforme atividade e risco.</li>
+        <li>Promover inspeções de segurança, auditorias internas e investigação de incidentes.</li>
+        <li>Implementar análise de riscos do trabalho e medidas preventivas.</li>
+        <li>Garantir condições de ergonomia, iluminação e ventilação adequadas.</li>
+        <li>Estabelecer protocolos de emergência e brigada de incêndio.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Atualizações e boas práticas</h2>
+      <div class="alert">
+        <strong>Atenção:</strong> as NRs são revistas periodicamente; acompanhe publicações no <a href="https://www.in.gov.br/leiturajornal" target="_blank" rel="noopener noreferrer">Diário Oficial da União</a>.
+      </div>
+      <ul>
+        <li>Adote a digitalização de registros de SST para controle mais rápido e seguro.</li>
+        <li>Incentive a cultura de report de quase acidentes e melhorias contínuas.</li>
+        <li>Faça simulados de emergência para validar procedimentos.</li>
+        <li>Monitore indicadores (taxa de acidentes, atestados, absenteísmo, treinamentos concluídos).</li>
+        <li>Aposte em tecnologia: sensores, wearables e apps para controlar riscos.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Referências importantes</h2>
+      <ul>
+        <li>Ministério do Trabalho e Previdência (NR atualizadas).</li>
+        <li>Agência Nacional de Vigilância Sanitária (ANVISA).</li>
+        <li>Secretaria de Inspeção do Trabalho.</li>
+        <li>NBR e ISO em SST (ex: ISO 45001).</li>
+      </ul>
+    </section>
+
+    <aside id="siglas">
+      <h2>Principais Siglas em Segurança do Trabalho</h2>
+      <p class="siglas-tip">💡 Dica: Clique em qualquer item para copiar para a área de transferência</p>
+      <div class="siglas-grid">
+        <div class="sigla-item"><strong>SST</strong> – Segurança e Saúde do Trabalho.</div>
+        <div class="sigla-item"><strong>NR</strong> – Norma Regulamentadora.</div>
+        <div class="sigla-item"><strong>SESMT</strong> – Serviço Especializado em Engenharia de Segurança e Medicina do Trabalho.</div>
+        <div class="sigla-item"><strong>CIPA</strong> – Comissão Interna de Prevenção de Acidentes.</div>
+        <div class="sigla-item"><strong>EPI</strong> – Equipamento de Proteção Individual.</div>
+        <div class="sigla-item"><strong>EPC</strong> – Equipamento de Proteção Coletiva.</div>
+        <div class="sigla-item"><strong>PCMSO</strong> – Programa de Controle Médico de Saúde Ocupacional.</div>
+        <div class="sigla-item"><strong>PPRA</strong> – Programa de Prevenção de Riscos Ambientais.</div>
+        <div class="sigla-item"><strong>PGR</strong> – Programa de Gestão de Riscos (substituiu PPRA).</div>
+        <div class="sigla-item"><strong>FISPQ</strong> – Ficha de Informações de Segurança de Produto Químico.</div>
+        <div class="sigla-item"><strong>ART</strong> – Anotação de Responsabilidade Técnica.</div>
+        <div class="sigla-item"><strong>CAT</strong> – Comunicação de Acidente do Trabalho.</div>
+        <div class="sigla-item"><strong>CEREST</strong> – Centro de Referência em Saúde do Trabalhador.</div>
+        <div class="sigla-item"><strong>INSS</strong> – Instituto Nacional do Seguro Social.</div>
+        <div class="sigla-item"><strong>MTE</strong> – Ministério do Trabalho e Emprego.</div>
+        <div class="sigla-item"><strong>AFT</strong> – Auditor Fiscal do Trabalho.</div>
+        <div class="sigla-item"><strong>APR</strong> – Análise Preliminar de Risco.</div>
+        <div class="sigla-item"><strong>HAZOP</strong> – Hazard and Operability Study.</div>
+        <div class="sigla-item"><strong>ISO</strong> – International Organization for Standardization.</div>
+        <div class="sigla-item"><strong>FMEA</strong> – Análise de Modo e Efeito de Falha.</div>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>Desenvolvido para informar sobre SST, NRs e práticas de prevenção.</p>
+    </div>
+    <button id="backToTop" class="back-to-top" type="button" title="Voltar ao topo da página" aria-label="Botão para voltar ao topo">⬆ Topo</button>
+  </footer>
+
+  <!-- Modal Catálogo de Vídeos (Estilo Netflix) -->
+  <div id="avoid-modal" class="avoid-modal netflix-theme" role="dialog" aria-label="Catálogo de vídeos de segurança" aria-modal="true" aria-hidden="true" tabindex="-1">
+    <header id="modal-header" class="sstflix-header">
+      <div class="header-left">
+        <div class="sstflix-logo">SSTFLIX</div>
+        <nav class="sstflix-nav">
+          <a href="javascript:void(0)" onclick="window.openCategory('all')">Início</a>
+          <a href="javascript:void(0)" onclick="window.openCategory('humor')">Humor</a>
+          <a href="javascript:void(0)" onclick="window.openCategory('equipamento')">Equipamento</a>
+          <a href="javascript:void(0)" onclick="window.openCategory('risco')">Risco</a>
+          <a href="javascript:void(0)" onclick="window.openCategory('comportamento')">Comportamento</a>
+          <a href="javascript:void(0)" onclick="window.openCategory('normas')">Normas</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <button id="logo-color-toggle" class="logo-toggle-btn" title="Alternar cor da logo"></button>
+        <div id="modal-search-container" class="sstflix-search">
+           <button class="search-trigger" id="modal-search-trigger">🔍</button>
+           <input type="text" id="modal-global-search" placeholder="Títulos, categorias..." class="search-input">
+        </div>
+        <button id="avoid-close" class="modal-exit-btn">✕</button>
+      </div>
+    </header>
+
+    <section id="hero-banner" class="sstflix-hero"></section>
+
+    <div class="sstflix-content">
+      <div id="favorites-row" class="sstflix-row" hidden>
+        <h2 class="row-title">⭐ Meus Favoritos</h2>
+        <div class="row-wrapper">
+          <button class="scroll-handle left" onclick="window.sideScroll(this.nextElementSibling, 'left')">›</button>
+          <div id="favorites-grid" class="row-container"></div>
+          <button class="scroll-handle right" onclick="window.sideScroll(this.previousElementSibling, 'right')">‹</button>
+        </div>
+      </div>
+      <div id="avoid-grid-categories"></div>
+      <div id="avoid-empty" class="sstflix-empty" hidden>Nenhum título encontrado.</div>
+    </div>
+  </div>
+
+  <!-- Modal Player (Fullscreen) -->
+  <div id="player-modal" class="player-modal" role="dialog" aria-label="Reprodutor de vídeo" aria-modal="true" aria-hidden="true" tabindex="-1">
+    <button id="player-close" class="player-close" type="button" aria-label="Fechar reprodutor">✕</button>
+    <div class="player-container">
+      <div class="player-header">
+        <h2 id="player-title">Vídeo de Segurança</h2>
+      </div>
+      <div class="player-video-wrapper">
+        <iframe id="player-video" class="player-video" width="100%" height="100%" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Vídeo de segurança"></iframe>
+      </div>
+      <div class="player-details">
+        <span id="player-cat-badge" class="player-badge">Categoria</span>
+        <p id="player-desc">Aguardando informações do vídeo...</p>
+        <div id="player-tips" class="player-tips-container"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Lista de Jornais -->
+  <div id="news-modal" class="news-modal" role="dialog" aria-label="Lista de Jornais" aria-modal="true">
+    <div class="news-modal-container">
+      <button id="news-modal-close" class="player-close" type="button">✕</button>
+      <h2>Portal de Jornais</h2>
+      <div class="news-grid">
+        <a href="https://www.agazeta.com.br/" target="_blank" rel="noopener">A Gazeta</a>
+        <a href="https://atarde.com.br/" target="_blank" rel="noopener">A Tarde</a>
+        <a href="https://www.correiobraziliense.com.br/" target="_blank" rel="noopener">Correio Braziliense</a>
+        <a href="https://www.correiodopovo.com.br/" target="_blank" rel="noopener">Correio do Povo</a>
+        <a href="https://www.nsctotal.com.br/dc" target="_blank" rel="noopener">Diário Catarinense</a>
+        <a href="https://www.diariodepernambuco.com.br/" target="_blank" rel="noopener">Diário de Pernambuco</a>
+        <a href="https://diariodocommercio.com.br/" target="_blank" rel="noopener">Diário do Commercio</a>
+        <a href="https://www.dgabc.com.br/" target="_blank" rel="noopener">Diário do Grande ABC</a>
+        <a href="https://diariodonordeste.verdesmares.com.br/" target="_blank" rel="noopener">Diário do Nordeste</a>
+        <a href="https://www.dol.com.br/" target="_blank" rel="noopener">Diário do Pará</a>
+        <a href="https://www.em.com.br/" target="_blank" rel="noopener">Estado de Minas</a>
+        <a href="https://extra.globo.com/" target="_blank" rel="noopener">Extra</a>
+        <a href="https://www.folha.uol.com.br/" target="_blank" rel="noopener">Folha de S.Paulo</a>
+        <a href="https://www.gazetadopovo.com.br/" target="_blank" rel="noopener">Gazeta do Povo</a>
+        <a href="https://www.hojeemdia.com.br/" target="_blank" rel="noopener">Hoje em Dia</a>
+        <a href="https://www.jornaldacidade.net/" target="_blank" rel="noopener">Jornal da Cidade</a>
+        <a href="https://jornaldebrasilia.com.br/" target="_blank" rel="noopener">Jornal de Brasília</a>
+        <a href="https://www.jb.com.br/" target="_blank" rel="noopener">Jornal do Brasil</a>
+        <a href="https://jc.ne10.uol.com.br/" target="_blank" rel="noopener">Jornal do Commercio (Recife)</a>
+        <a href="https://www.jcrs.com.br/" target="_blank" rel="noopener">Jornal do Comércio</a>
+        <a href="https://www.otempo.com.br/" target="_blank" rel="noopener">Jornal O Tempo</a>
+        <a href="https://www.lance.com.br/" target="_blank" rel="noopener">Lance!</a>
+        <a href="https://meiahora.ig.com.br/" target="_blank" rel="noopener">Meia Hora</a>
+        <a href="https://www.nexojornal.com.br/" target="_blank" rel="noopener">Nexo Jornal</a>
+        <a href="https://odia.ig.com.br/" target="_blank" rel="noopener">O Dia</a>
+        <a href="https://www.estadao.com.br/" target="_blank" rel="noopener">O Estado de S. Paulo (Estadão)</a>
+        <a href="https://oglobo.globo.com/" target="_blank" rel="noopener">O Globo</a>
+        <a href="https://www.oliberal.com/" target="_blank" rel="noopener">O Liberal</a>
+        <a href="https://www.opovo.com.br/" target="_blank" rel="noopener">O Povo</a>
+        <a href="https://www.otempo.com.br/super-noticia" target="_blank" rel="noopener">Super Notícia</a>
+        <a href="https://www.tribunadabahia.com.br/" target="_blank" rel="noopener">Tribuna da Bahia</a>
+        <a href="https://valor.globo.com/" target="_blank" rel="noopener">Valor Econômico</a>
+        <a href="https://gauchazh.clicrbs.com.br/" target="_blank" rel="noopener">Zero Hora</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
